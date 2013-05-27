@@ -1,14 +1,14 @@
 vti_encoding:SR|utf8-nl
-vti_timelastmodified:TR|27 May 2013 22:13:33 -0000
-vti_extenderversion:SR|12.0.0.0
+vti_timelastmodified:TR|27 May 2013 22:05:40 -0000
+vti_extenderversion:SR|12.0.0.6211
 vti_author:SR|LG\\Haissam
-vti_modifiedby:SR|HTSDATA\\ts10088
+vti_modifiedby:SR|LG\\Haissam
 vti_timecreated:TR|27 May 2013 21:09:32 -0000
 vti_title:SR|Bilarna
 vti_backlinkinfo:VX|Formulär.htm index.html
-vti_nexttolasttimemodified:TW|27 May 2013 22:13:29 -0000
-vti_cacheddtm:TX|27 May 2013 22:13:21 -0000
-vti_filesize:IR|2082
+vti_nexttolasttimemodified:TW|27 May 2013 21:53:50 -0000
+vti_cacheddtm:TX|27 May 2013 22:05:40 -0000
+vti_filesize:IR|2081
 vti_cachedtitle:SR|Bilarna
 vti_cachedbodystyle:SR|<body>
 vti_cachedlinkinfo:VX|H|CSS/empty.css.css Q|CSS/Mall.css H|index.html H|Formulär.htm

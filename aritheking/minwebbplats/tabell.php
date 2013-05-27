@@ -37,7 +37,7 @@ include '../File/connect.php';
 				<p>   
 				
 				<?php
-         $query = "SELECT * FROM "begagnade bilar";
+         $query = "SELECT * FROM begagnade bilar";
          //echo '<em> ' . $query . ' </em>';
          $result = mysql_query($query);
          if ($result === false) {
