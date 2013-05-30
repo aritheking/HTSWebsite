@@ -1,13 +1,13 @@
 vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|30 May 2013 22:42:34 -0000
+vti_extenderversion:SR|12.0.0.6211
 vti_author:SR|LG\\Haissam
 vti_modifiedby:SR|LG\\Haissam
-vti_timelastmodified:TR|30 May 2013 21:43:16 -0000
-vti_timecreated:TR|27 May 2013 21:31:49 -0000
-vti_extenderversion:SR|12.0.0.6211
-vti_backlinkinfo:VX|
-vti_nexttolasttimemodified:TR|27 May 2013 22:07:22 -0000
-vti_cacheddtm:TX|30 May 2013 21:43:18 -0000
-vti_filesize:IR|495
+vti_timecreated:TR|21 May 2013 10:32:42 -0000
+vti_backlinkinfo:VX|inloggning.htm
+vti_nexttolasttimemodified:TW|30 May 2013 22:28:56 -0000
+vti_cacheddtm:TX|30 May 2013 22:42:36 -0000
+vti_filesize:IR|636
 vti_cachedlinkinfo:VX|Q|CSS/Mall.css
 vti_cachedsvcrellinks:VX|FQUS|CSS/Mall.css
 vti_cachedneedsrewrite:BR|false

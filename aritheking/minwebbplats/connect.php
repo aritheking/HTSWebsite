@@ -1,4 +1,9 @@
-﻿<?php
+﻿
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/Mall.css">
+</head>
+
+<?php
 $server="localhost";
 $user="root";
 $password="";

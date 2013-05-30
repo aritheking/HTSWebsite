@@ -6,21 +6,13 @@
         
 		<link rel="alternate stylesheet" title="none" type="text/css" href="../CSS/empty.css.css" />	  
         <link rel="stylesheet" type="text/css" href="CSS/Mall.css" />
-        <title>Begagnade bilar</title>	
+        <title>Logg In</title>	
     	
     	<style type="text/css">
 .style1 {
 	font-size: medium;
 }
 .style2 {
-	font-family: "Times New Roman", Times, serif;
-}
-.style3 {
-	font-size: medium;
-	font-weight: bold;
-}
-.style4 {
-	font-size: medium;
 	font-family: "Times New Roman", Times, serif;
 }
 a {
@@ -34,28 +26,43 @@ a {
             <div id="top">
                <div id="banner-left" style="height: 151px; width: 0px;" >
 				</div>
-               <div id="banner-center" style="width: 995px" >Välkommen Till Begagnadebilar</div>
+               <div id="banner-center" style="width: 995px" >Logga In</div>
                
             </div>
             <div id="left">
 					<div class="dokument-item">
-						<span class="style4"><strong><a href="tabell.php">Tabell</a></strong></span><br />
+						<span class="style2">
+						<span class="style1"><strong><a href="tabell.php">Tabell</a><br />
 						<br />
-						<strong><span class="style4"><a href="Form.htm">
-						Formulär</a></span></strong><br />
+						</strong><a href="Form.htm">
+						<strong>Formulär</strong></a><strong><br />
 						<br />
-						<strong><span class="style4"><a href="inloggning.htm">
-						Inloggning</a></span></strong><span class="style2"><span class="style3"><br />
-						</span>
+						</strong><a href="index.html">
+						<strong>Home</strong></a></span></span><br />
+						<br />
 					</div>
             </div>
             <div id="center">
 				                <div id="info">
-				<h1 class="style1"> Begagnade bilar</span></h1>
-				<p class="info">Hej och välkommen till min sida, här kan ni se ett litet sortiment på begagnade bilar!</p>
+				                  <div id="center">
+                <div id="info">
+				<h1 class="dokument-item-header"> Här kan du logga in</h1>
+				<p class="info">Fyll i dina uppgifter. Om du är registrerat.</p>
+				
+				<form action="login.php" method="post">
+Användarnamn: <input type="text" name="myUser"> <br />
+Lösenord: <input type="text" name="myPassword"> <br />
+<input type="submit">
+
+
+</form>
+				
+                </div>
+				
+
 </div>
-</div>
-           
+
+			           
 			<div id="footer">
 				<p> &copy; 2013 Arman Khosravinejad
 				</p>
@@ -63,3 +70,6 @@ a {
         </div>
     </body>
 </html>
+<?php
+   mysql_close($con);
+?>

@@ -1,4 +1,9 @@
-﻿<?php
+﻿
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/Mall.css">
+</head>
+
+<?php
 		if(isset($_POST[ID]) and $_POST[Regnr] and $_POST[Märke] and $_POST[Modell] and $_POST[Årsmodell] and $_POST[Färg] and $_POST[Pris]){
              $query = "INSERT INTO begagnade bilar (Text, Number) VALUES ('$_POST[ID]' , '$_POST[Regnr]' , '$_POST[Märke]' , '$_POST[Modell]' , '$_POST[Årsmodell]' , '$_POST[Färg]' , '$_POST[Pris]')";
              //echo '<em> ' . $query . ' </em>';

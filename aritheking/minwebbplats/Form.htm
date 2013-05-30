@@ -1,0 +1,80 @@
+﻿<?php
+session_start();
+if(!isset($_SESSION['session_user'])){
+	header('Location: login.php');
+}
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+        
+		<link rel="alternate stylesheet" title="none" type="text/css" href="../CSS/empty.css.css" />	  
+        <link rel="stylesheet" type="text/css" href="CSS/Mall.css" />
+        <title>Formulär</title>	
+    	
+    	<style type="text/css">
+.style1 {
+	font-size: medium;
+}
+.style2 {
+	font-family: "Times New Roman", Times, serif;
+}
+a {
+	color: #000000;
+}
+</style>
+    	
+    </head>
+    <body>
+        <div id="content">
+            <div id="top">
+               <div id="banner-left" style="height: 151px; width: 0px;" >
+				</div>
+               <div id="banner-center" style="width: 995px" >Formulär Av 
+				begagnade bilar</div>
+               
+            </div>
+            <div id="left">
+					<div class="dokument-item">
+						<span class="style2">
+						<span class="style1"><strong><a href="index.html">Home</a></strong><br />
+						<br />
+						<strong><a href="tabell.php">Tabell</a><br />
+						<br />
+						</strong><strong><a href="inloggning.htm">Inloggning</a></strong></span></span><br />
+						<br />
+						<br />
+						<br />
+					</div>
+            </div>
+            <div id="center">
+            Skriv din värde här:
+            
+				                <div id="info">
+				                <!-- Ett formulär -->
+<form action="input.php" method="post">
+<p>Id: <input type="text" name="ID"> </p>
+<p>Regnr: <input type="text" name="Regnr"></p>
+<p>Märke: <input type="text" name="Märke"> </p>
+<p>Modell: <input type="text" name="Modell"></p>
+<p>Årsmodell: <input type="number" name="Årsmodell"> </p>
+<p>Färg: <input type="text" name="Färg"></p>
+<p>Pris: <input type="text" name="Pris"> </p>
+
+
+
+<input type="submit">
+</form>
+</div>
+</div>
+           
+			<div id="footer">
+				<p> &copy; 2013 Arman Khosravinejad
+				</p>
+			</div>
+        </div>
+    </body>
+</html>
