@@ -46,7 +46,7 @@ a {
 				<b>   
 				
 				<?php
-         $query = "SELECT * FROM ´begagnade bilar´";
+         $query = "SELECT * FROM `begagnade bilar`";
          echo '<em> ' . $query . ' </em>';
          $result = mysql_query($query);
          if ($result === false) {
@@ -61,7 +61,7 @@ a {
              echo "<ul>";
              for ($i=0;$i<$num;$i++) {
                  $temp = mysql_fetch_array($result);
-	             echo "<li>" . $temp["ID"] . " " . $temp["Regnr"]  . " " . $temp["Märke"] . " " . $temp["Modell"] . " " . $temp["Årsmodell"] . " " . $temp["Färg"] . " " . $temp["Pris"] ."</li>";
+	             echo "<li>" . $temp["ID"] . "   " . $temp["Regnr"]  . "   " . $temp["Marke"] . "   " . $temp["Modell"] . "   " . $temp["Arsmodell"] . "   " . $temp["Farg"] . "   " . $temp["Pris"] ."</li>";
              }
              echo "</ul>";
         }

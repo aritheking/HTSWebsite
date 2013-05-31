@@ -1,14 +1,14 @@
 vti_encoding:SR|utf8-nl
-vti_timelastmodified:TR|30 May 2013 22:13:35 -0000
-vti_extenderversion:SR|12.0.0.6211
+vti_timelastmodified:TR|31 May 2013 09:25:17 -0000
+vti_extenderversion:SR|12.0.0.0
 vti_author:SR|LG\\Haissam
-vti_modifiedby:SR|LG\\Haissam
+vti_modifiedby:SR|HTSDATA\\ts10088
 vti_timecreated:TR|27 May 2013 21:09:32 -0000
 vti_title:SR|Tabell
 vti_backlinkinfo:VX|inloggning.htm Grattis.htm index.html Form.htm
-vti_nexttolasttimemodified:TR|30 May 2013 21:26:22 -0000
-vti_cacheddtm:TX|30 May 2013 22:13:36 -0000
-vti_filesize:IR|2398
+vti_nexttolasttimemodified:TW|31 May 2013 09:06:33 -0000
+vti_cacheddtm:TX|31 May 2013 09:25:17 -0000
+vti_filesize:IR|2405
 vti_cachedtitle:SR|Tabell
 vti_cachedbodystyle:SR|<body>
 vti_cachedlinkinfo:VX|H|CSS/empty.css.css Q|CSS/Mall.css H|index.html H|Form.htm H|inloggning.htm

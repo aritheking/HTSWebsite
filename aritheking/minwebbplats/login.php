@@ -5,7 +5,7 @@
 </head>
 
 <?php
-        include '../Demo/connect.php';
+        include 'connect.php';
 		
          $query = "SELECT name FROM user WHERE name='$_POST[myUser]' AND password='$_POST[myPassword]'";
          echo '<em> ' . $query . ' </em>';
